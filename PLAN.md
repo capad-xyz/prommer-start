@@ -4,6 +4,8 @@ Two-door start page for https://prommer.net. Empty of product copy until the ass
 
 Window: open until Tue 29 Sep 2026, 17:01 UTC (22:31 IST).
 
+Same workflow as searchts: this file is the source of truth. One plan, checklist inside it, ticks stay, parked items get an id. No second checklist file.
+
 ## Locked
 
 One static page. Two doors.
@@ -25,7 +27,7 @@ Plan B, only if the 8 questions are long: ship the booker door alone.
 ## Who
 
 | Role | Does | Does not |
-|---|---|---|
+|---|---|
 | Aadarsh | Begin, leave the test tab open, paste the 8 question titles, rewrite the reflection, Submit | Write the page |
 | Grok Build | Read the site, write `index.html` and `links.json`, push, re-fetch every link, delete a dead line | Click Begin, invent a fact, turn on Pages |
 | Tess | After the live URL exists, click every link on her computer and send pass/fail | Edit the copy |
@@ -56,3 +58,22 @@ Plan B, only if the 8 questions are long: ship the booker door alone.
 ## If Pages does not serve
 
 Tess deploys the same repo to a `pages.dev` URL. Not capad.fyi. Then she does the click pass on that URL.
+
+## What the repo holds
+
+| File | Role |
+|---|---|
+| `PLAN.md` | Stays. Ticks, cuts, and parked ids live here. Not deleted after deploy. |
+| `README.md` | Short front door only. |
+| `index.html`, `links.json` | The page. Added after Begin. Stay. |
+
+No `CHECKLIST.md`. Checker notes get a tick or a parked id in this file. They do not become a second copy of the page.
+
+## Parked
+
+| Id | Item | Revisit |
+|---|---|---|
+| P1 | searchts "read this URL" demo | Not this assessment. Own project. |
+| P2 | Race calculator or HYROX planner | His site already has the tools. |
+| P3 | Host on capad.fyi | Do not. Assessment work stays off the portfolio domain. |
+| P4 | Facts-only citation page | Rule stays (no unsourced line). Not the product. The card names bookers and operators. |
