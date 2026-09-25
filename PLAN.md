@@ -27,7 +27,7 @@ Plan B, only if the 8 questions are long: ship the booker door alone.
 ## Who
 
 | Role | Does | Does not |
-|---|---|
+|---|---|---|
 | Aadarsh | Begin, leave the test tab open, paste the 8 question titles, rewrite the reflection, Submit | Write the page |
 | Grok Build | Read the site, write `index.html` and `links.json`, push, re-fetch every link, delete a dead line | Click Begin, invent a fact, turn on Pages |
 | Tess | After the live URL exists, click every link on her computer and send pass/fail | Edit the copy |
