@@ -40,6 +40,8 @@ Plan B, only if the 8 questions are long: ship the booker door alone.
 - [x] Branch `master`
 - [x] GitHub Pages: `master` / root. Saved.
 - [x] This plan in the repo
+- [x] `CHECKLIST.md` removed. 28 Sep 2026.
+- [x] Access check below. Push, delete, and page reads work.
 - [ ] Test tab open on the laptop
 - [ ] Begin not clicked yet
 
@@ -58,6 +60,19 @@ Plan B, only if the 8 questions are long: ship the booker door alone.
 ## If Pages does not serve
 
 Tess deploys the same repo to a `pages.dev` URL. Not capad.fyi. Then she does the click pass on that URL.
+
+## Access check, 28 Sep 2026
+
+| Touch | Result |
+|---|---|
+| Push and delete on `capad-xyz/prommer-start` | Works. `CHECKLIST.md` is gone. |
+| https://capad-xyz.github.io/prommer-start/ | Loads. Shows the README until `index.html` exists. |
+| https://prommer.net/ | Loads. |
+| https://prommer.net/en/tech/press/ | Loads. Real article URLs are on the page. |
+| https://prommer.net/en/about/thomas-prommer/ | Loads. Contact on that page is LinkedIn, not an email. |
+| https://prommer.net/en/tech/advisory/ | 404. Do not use this guessed path. |
+
+Copy for the two doors is still not written. Those lines get chosen after Begin, from pages opened during the clock.
 
 ## What the repo holds
 
