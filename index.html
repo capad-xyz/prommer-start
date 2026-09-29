@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start here · prommer.net</title>
+  <meta name="description" content="Two doors into prommer.net. Book a talk, or open what Thomas Prommer already runs.">
+  <style>
+    :root {
+      --paper: #f3efe4;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --line: #d9d1c3;
+      --book: #1f4d3a;
+      --book-bg: #e5f0e8;
+      --op: #7a3418;
+      --op-bg: #f6e6da;
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 18px; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+      line-height: 1.45;
+    }
+    a { color: inherit; }
+    header, main, footer { width: min(1080px, calc(100% - 2.5rem)); margin-inline: auto; }
+    header { padding: 2.2rem 0 1.4rem; border-bottom: 1px solid var(--ink); }
+    .kicker {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin: 0 0 0.8rem;
+    }
+    h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); line-height: 0.95; font-weight: 600; margin: 0 0 0.8rem; }
+    .lede { max-width: 38rem; margin: 0; font-size: 1.15rem; }
+    .who { color: var(--muted); margin: 0.8rem 0 0; font-size: 0.95rem; }
+    .doors { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; padding: 1.4rem 0 2rem; }
+    .door { border: 1px solid var(--ink); padding: 1.15rem 1.15rem 0.4rem; background: white; }
+    .door.book { background: var(--book-bg); }
+    .door.op { background: var(--op-bg); }
+    .door h2 { margin: 0.2rem 0 0.35rem; font-size: 1.7rem; }
+    .for {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .door.book .for { color: var(--book); }
+    .door.op .for { color: var(--op); }
+    .door p { margin: 0 0 0.9rem; }
+    h3 {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 1rem 0 0.4rem;
+    }
+    ol, ul { margin: 0 0 1rem; padding-left: 1.15rem; }
+    li { margin: 0.35rem 0; }
+    li a { text-underline-offset: 0.15em; }
+    .src { color: var(--muted); font-size: 0.82rem; }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 1rem 0 2.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .contact {
+      display: inline-block;
+      margin-top: 0.3rem;
+      padding: 0.45rem 0.7rem;
+      background: var(--ink);
+      color: var(--paper);
+      text-decoration: none;
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.85rem;
+    }
+    @media (max-width: 760px) {
+      .doors { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">A start page for prommer.net</p>
+    <h1>Two doors. Not a second homepage.</h1>
+    <p class="lede">One door is for someone booking a talk. The other is for someone checking what he has already run. Both send you back to his site.</p>
+    <p class="who">About page: technology and AI advisor, founder of We The Flywheel, former Global SVP of Engineering at Adidas.</p>
+  </header>
+  <main class="doors">
+    <section class="door book" id="book">
+      <p class="for">Bookers · press and podcasts</p>
+      <h2>Book a talk</h2>
+      <p>The speaking page already names the talks. These four match a booker who wants a sharp point of view on how an engineering org actually uses AI.</p>
+      <h3>Talks</h3>
+      <ol>
+        <li><a href="https://prommer.net/en/press/speaking/">The AI-Augmented Organization</a></li>
+        <li><a href="https://prommer.net/en/press/speaking/">Engineering at Scale</a></li>
+        <li><a href="https://prommer.net/en/press/speaking/">From CTO to CTAIO</a></li>
+        <li><a href="https://prommer.net/en/press/speaking/">Responsible AI in Practice</a></li>
+      </ol>
+      <p class="src">Titles from the speaking page. Each title opens that page.</p>
+      <h3>Proof, before you write</h3>
+      <ul>
+        <li><a href="https://ctocraft.com/ai-is-the-new-os/">AI is the New OS</a> <span class="src">CTO Craft, listed in the press room</span></li>
+        <li><a href="https://prommer.net/en/tech/press/global-cio-100/">HotTopics Global CIO 2026</a> <span class="src">his press note, 22 Jun 2026</span></li>
+        <li><a href="https://www.businessinsider.com/bosses-credit-human-employees-ai-delaying-promotions-raises-2026-7">Bosses credit AI instead of employees</a> <span class="src">Business Insider, listed in the press room</span></li>
+        <li><a href="https://prommer.net/en/ask-tom/">Ask AI Tom</a> <span class="src">answers from his published writing, not a generic chat</span></li>
+      </ul>
+    </section>
+    <section class="door op" id="operator">
+      <p class="for">Operators · founders and strategists</p>
+      <h2>What he runs</h2>
+      <p>Three properties named on his own pages. Open the property, not a summary of it.</p>
+      <ol>
+        <li>
+          <a href="https://wetheflywheel.com/">We The Flywheel</a>
+          <div class="src">The about page calls him its founder. <a href="https://prommer.net/en/about/thomas-prommer/">Source</a></div>
+        </li>
+        <li>
+          <a href="https://flywheelmotion.com/">Flywheel Motion</a>
+          <div class="src">Named on the same about page, next to We The Flywheel.</div>
+        </li>
+        <li>
+          <a href="https://ctaio.dev/">ctaio.dev</a>
+          <div class="src">Named in the Global CIO 2026 press note. <a href="https://prommer.net/en/tech/press/global-cio-100/">Source</a></div>
+        </li>
+      </ol>
+      <h3>Reach him</h3>
+      <p>The about page does not publish an email. It points here.</p>
+      <a class="contact" href="https://www.linkedin.com/in/thomasprommer">LinkedIn</a>
+      <p class="src">Also the contact point on <a href="https://prommer.net/en/about/thomas-prommer/#contact">the about page</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Built as a router for the two people named on the prommer.net brief: bookers, and operators. It does not repeat the training log, the race tools, or the homepage. The same URLs are in <a href="links.json">links.json</a>.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "page": "https://capad-xyz.github.io/prommer-start/",
+  "opened": "2026-09-29",
+  "contact": {
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/thomasprommer",
+    "source": "https://prommer.net/en/about/thomas-prommer/"
+  },
+  "booker": {
+    "topics_source": "https://prommer.net/en/press/speaking/",
+    "topics": [
+      "The AI-Augmented Organization",
+      "Engineering at Scale",
+      "From CTO to CTAIO",
+      "Responsible AI in Practice"
+    ],
+    "proof": [
+      {
+        "label": "AI is the New OS",
+        "url": "https://ctocraft.com/ai-is-the-new-os/",
+        "source": "https://prommer.net/en/tech/press/"
+      },
+      {
+        "label": "HotTopics Global CIO 2026",
+        "url": "https://prommer.net/en/tech/press/global-cio-100/",
+        "source": "https://prommer.net/en/tech/press/global-cio-100/"
+      },
+      {
+        "label": "Bosses credit AI instead of employees",
+        "url": "https://www.businessinsider.com/bosses-credit-human-employees-ai-delaying-promotions-raises-2026-7",
+        "source": "https://prommer.net/en/tech/press/"
+      },
+      {
+        "label": "Ask AI Tom",
+        "url": "https://prommer.net/en/ask-tom/",
+        "source": "https://prommer.net/en/ask-tom/"
+      }
+    ]
+  },
+  "operator": [
+    {
+      "label": "We The Flywheel",
+      "url": "https://wetheflywheel.com/",
+      "source": "https://prommer.net/en/about/thomas-prommer/"
+    },
+    {
+      "label": "Flywheel Motion",
+      "url": "https://flywheelmotion.com/",
+      "source": "https://prommer.net/en/about/thomas-prommer/"
+    },
+    {
+      "label": "ctaio.dev",
+      "url": "https://ctaio.dev/",
+      "source": "https://prommer.net/en/tech/press/global-cio-100/"
+    }
+  ]
+}
